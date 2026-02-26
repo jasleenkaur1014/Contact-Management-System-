@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(230, 246, 246);
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 2rem;
+}
+span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+i {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+#contact-creation {
+  font-weight: 100;
+  color: rgb(133, 132, 132);
+  font-size: 1rem;
+}
+
+.card {
+  text-align: center;
+  line-height: 3rem;
+}
+.badge {
+  font-size: 1rem;
+}
+#first-letter {
+  width: 95px;
+  border-radius: 50%;
+  font-weight: bold;
+  background-color: rgb(110, 127, 143);
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+}
+@media (max-width: 630px) {
+  .card {
+    width: 100%;
+  }
+}

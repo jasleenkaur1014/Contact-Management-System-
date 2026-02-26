@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login &amp; signup form</title>
+    <link rel="stylesheet" href="styles/login-styles.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="wrapper">
+      <div class="title-text">
+        <div class="title login">Login Form</div>
+        <div class="title signup">Signup Form</div>
+      </div>
+      <div class="form-container">
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked />
+          <input type="radio" name="slide" id="signup" />
+          <label for="login" class="slide login">Login</label>
+          <label for="signup" class="slide signup">Signup</label>
+          <div class="slider-tab"></div>
+        </div>
+        <div class="form-inner">
+          <form action="#" class="login" id="loginForm">
+            <div class="field">
+              <input
+                type="text"
+                placeholder="Email Address"
+                name="email"
+                required
+              />
+            </div>
+            <div class="field">
+              <input
+                type="password"
+                placeholder="Password"
+                name="password"
+                required
+              />
+            </div>
+
+            <small class="error-text" id="login-error"></small>
+            <small class="success-text" id="login-success"></small>
+
+            <div class="pass-link"><a href="#">Forgot password?</a></div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Login" />
+            </div>
+            <div class="signup-link">
+              Not a member? <a href="#">Signup now</a>
+            </div>
+          </form>
+          <form action="#" class="signup" id="signupForm">
+            <div class="field">
+              <input type="text" placeholder="Name" name="name" required />
+            </div>
+            <div class="field">
+              <input
+                type="text"
+                placeholder="Email Address"
+                name="email"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <input
+                type="password"
+                placeholder="Password"
+                name="password"
+                required
+              />
+            </div>
+            <small class="error-text" id="signup-error"></small>
+            <small class="success-text" id="signup-success"></small>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Signup" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="scripts/config.js"></script>
+    <script src="scripts/login-script.js"></script>
+  </body>
+</html>

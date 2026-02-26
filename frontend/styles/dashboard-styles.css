@@ -1,0 +1,61 @@
+.app-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+}
+.app-logo {
+  object-fit: cover;
+}
+#stats-card {
+  margin-bottom: 1.5rem;
+}
+.stat-card h6 {
+  font-size: 0.85rem;
+}
+.stat-card h3 {
+  margin: 0;
+}
+#contact-table th {
+  white-space: nowrap;
+}
+#contact-table td {
+  vertical-align: middle;
+}
+.msg {
+  font-style: italic;
+}
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.err {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+ul {
+  list-style: none;
+}
+.recent-list-element {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.recent-list-element:hover {
+  text-decoration: underline;
+}
+
+.category-list-element {
+  font-size: 0.9rem;
+  margin-top: 15px;
+  line-height: 10px;
+  font-style: italic;
+}
+table {
+  margin-top: 2rem;
+}
