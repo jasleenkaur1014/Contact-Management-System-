@@ -1,1 +1,1 @@
-const CONFIG = { API_BASE: "http://localhost:3000" };
+const CONFIG = { API_BASE: your_backend_api_base_url};
